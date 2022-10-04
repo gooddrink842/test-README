@@ -4,8 +4,8 @@ Pemrograman Berbasis Platform (CSGE602022) - diselenggarakan oleh Fakultas Ilmu 
 
 Muhammad Nabiel Andityo Purnomo - 2106750465
 
-- [Tugas 4](#Tugas-4---Pengimplementasian-Form-dan-Autentikasi-Menggunakan-Django)
-- [Tugas 5](#Tugas-5---Web-Design-Using-HTML,-CSS,-and-CSS-Framework)
+- [Tugas 4](#tugas-4---pengimplementasian-form-dan-autentikasi-menggunakan-django)
+- [Tugas 5](#tugas-5---web-design-using-html-css-and-css-framework)
 
 ## Tugas 4 - Pengimplementasian Form dan Autentikasi Menggunakan Django
 
