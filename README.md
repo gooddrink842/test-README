@@ -294,15 +294,15 @@ Berikut merupakan tag dalam HTML5 yang sering dipakai
 Selektor CSS memilih elemen HTML sesuai dengan *id, class, type, attribute etc*.
 
 Ada beberapa jenis *CSS selectors*. di antaranya adalah:<br>
-1. CSS Element Selector<br>
+1. *CSS Element Selector*<br>
 Selektor elemen memilih elemen HTML berdasarkan nama.<br>
-2. CSS Id Selector<br>
+2. *CSS Id Selector*<br>
 Selector id memilih atribut id dari elemen HTML untuk memilih elemen tertentu. Id selalu unik di dalam halaman sehingga dipilih untuk memilih satu elemen unik. Itu ditulis dengan karakter hash (#), diikuti oleh id elemen.
-3. CSS Class Selector<br>
+3. *CSS Class Selector*<br>
 Selektor kelas memilih elemen HTML dengan atribut kelas tertentu. Digunakan dengan karakter titik. (simbol titik penuh) diikuti dengan nama kelas.<br>
-4. CSS Universal Selector<br>
+4. *CSS Universal Selector*<br>
 Selektor universal digunakan sebagai karakter wildcard. Ini memilih semua elemen pada halaman.<br>
-5. CSS Group Selector<br>
+5. *CSS Group Selector*<br>
 *Grouping selector* digunakan untuk memilih semua elemen dengan definisi *style* yang sama. *Grouping selector* digunakan untuk meminimalkan kode. Koma digunakan untuk memisahkan setiap selektor dalam pengelompokan.<br>
 
 ### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
