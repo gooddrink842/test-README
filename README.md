@@ -206,17 +206,17 @@ Cara untuk mengaplikasikan *external CSS* ini adalah
 Jenis CSS ini sangat tidak disarankan, karena setiap tag HTML perlu ditata secara individual. Mengelola situs web kita mungkin menjadi terlalu sulit jika kita hanya menggunakan *Inline CSS*.
 Namun, *Inline CSS* dalam HTML dapat berguna dalam beberapa situasi. Misalnya, dalam kasus di mana kita tidak memiliki akses ke file CSS atau perlu menerapkan gaya untuk satu elemen saja.<br>
 Berikut merupakan contoh *inline CSS* ke tag `<p>` dan `<h1>`:<br>
-```html
-<!DOCTYPE html>
-<html>
-	<body style="background-color:black;">
+	```html
+	<!DOCTYPE html>
+	<html>
+		<body style="background-color:black;">
 
-		<h1 style="color:white;padding:30px;">PBP Tutorials</h1>
-		<p style="color:white;">Something usefull here.</p>
+			<h1 style="color:white;padding:30px;">PBP Tutorials</h1>
+			<p style="color:white;">Something usefull here.</p>
 
-	</body>
-</html>
-```
+		</body>
+	</html>
+	```
 
 ### Jelaskan tag HTML5 yang kamu ketahui.
 
