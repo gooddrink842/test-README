@@ -325,7 +325,7 @@ Selektor universal digunakan sebagai karakter wildcard. Ini memilih semua elemen
 	</body>
 	```
 	Selanjutnya dalam setiap halaman saya juga membuat navbar dengan button tertentu. Dalam setiap bagian dari halaman tersebut saya juga menambahkan background image agar tampilan menjadi lebih menarik.<br>
-	Lalu, dalam setiap page juga saya membuat container dengan style`align-items: center;` agar setiap item ditampilkan di tengah. <br>
+	Lalu, dalam setiap page juga saya membuat container dengan style `align-items: center;` agar setiap item ditampilkan di tengah. <br>
 	Dalam setiap page saya juga memberikan attribute margin atau padding untuk menyesuaikan item tersebut agar menarik dilihat user. <br>
 	Tentu dalam setiap form harus diberikan `{% csrf_token %}` untuk memberikan proteksi data. <br>
 	Dalam page todolist, saya menampilkan form sebagai cards dan membuat fitur berwarna hijau ketika task tersebut sudah selesai dan berwarna merah ketika task tersebut belum selesai. <br>
