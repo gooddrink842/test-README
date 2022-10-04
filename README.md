@@ -329,6 +329,15 @@ Selektor universal digunakan sebagai karakter wildcard. Ini memilih semua elemen
 	Dalam setiap page saya juga memberikan attribute margin atau padding untuk menyesuaikan item tersebut agar menarik dilihat user. <br>
 	Tentu dalam setiap form harus diberikan `{% csrf_token %}` untuk memberikan proteksi data. <br>
 	Dalam page todolist, saya menampilkan form sebagai cards dan membuat fitur berwarna hijau ketika task tersebut sudah selesai dan berwarna merah ketika task tersebut belum selesai. <br>
+	Pada bagian bonus, saya membuat efek ketika melakukan hover pada cards di halaman utama todolist dengan cara menambahkan *style* berikut ini.<br>
+	```html
+	<style>
+		.card:hover {
+			transform: scale(1.02);
+		  }
+		...
+	</style>
+	```
 	
 2. Membuat keempat halaman yang dikustomisasi menjadi responsive.
 	*Responsive web design* adalah sebuah metode atau pendekatan sistem web desain yang bertujuan memberikan pengalaman berselancar yang optimal dalam berbagai perangkat, 
