@@ -223,44 +223,7 @@ Berikut merupakan contoh *inline CSS* ke tag <p> dan <h1>:
 Berikut merupakan tag yang hanya bisa digunakan dalam HTML5. Selain daftar di bawah ini 
 masih banyak tag yang 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| `<article>` | Defines an article. |
-| <aside> | Defines some content loosely related to the page content. |
-| <audio> | Embeds a sound, or an audio stream in an HTML document. |
-| <bdi> | Represents text that is isolated from its surrounding for the purposes of bidirectional text formatting. |
-| <canvas> | Defines a region in the document, which can be used to draw graphics on the fly via scripting. |
-| <data> | Links a piece of content with a machine-readable translation. |
-| <datalist> | Represents a set of pre-defined options for an <input> element. |
-| <details> | Represents a widget from which the user can obtain additional information or controls on-demand. |
-| <dialog> | Defines a dialog box or subwindow. |
-| <embed> | Embeds external application, typically multimedia content like audio or video into an HTML document. |
-| <figcaption> | Defines a caption or legend for a figure. |
-| <figure> | Represents a figure illustrated as part of the document. |
-| <footer> | Represents the footer of a document or a section. |
-| <header> | Represents the header of a document or a section. |
-| <hgroup> | Defines a group of headings |
-| <keygen> | Represents a control for generating a public-private key pair. |
-| <main> | Represents the main or dominant content of the document. |
-| <mark> | Represents text highlighted for reference purposes. |
-| <menuitem> | Defines a list (or menuitem) of commands that a user can perform. |
-| <meter> | Represents a scalar measurement within a known range. |
-| <nav> | Defines a section of navigation links. |
-| <output> | Represents the result of a calculation. |
-| <picture> | Defines a container for multiple image sources. |
-| <progress> | Represents the completion progress of a task. |
-| <rp> | Provides fall-back parenthesis for browsers that that don't support ruby annotations. |
-| <rt> | Defines the pronunciation of character presented in a ruby annotations. |
-| <ruby> | Represents a ruby annotation. |
-| <section> | Defines a section of a document, such as header, footer etc. |
-| <source> | Defines alternative media resources for the media elements like <audio> or <video>. |
-| <summary> | Defines a summary for the <details> element. |
-| <svg> | Embed SVG (Scalable Vector Graphics) content in an HTML document. |
-| <template> | Defines the fragments of HTML that should be hidden when the page is loaded |
-| <time>  | Represents a time and/or date. |
-| <track> | Defines text tracks for the media elements like <audio> or <video>. |
-| <video> | Embeds video content in an HTML document. |
-| <wbr> | Represents a line break opportunity. |
+
 
 ### Jelaskan tipe-tipe CSS selector yang kamu ketahui.
 
