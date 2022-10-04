@@ -153,7 +153,7 @@ Perbedaan utama antara *inline CSS* dan *external CSS* adalah bahwa *inline CSS*
 browser untuk mengunduh 1 file sedangkan menggunakan *external CSS* akan memerlukan pengunduhan file HTML dan CSS secara terpisah.
 Untuk perbedaan lebih rinci saya paparkan dibawah ini<br>
 
-- Internal CSS:<br>
+- __Internal CSS:__<br>
 *Internal* atau *embedded CSS* mengharuskan kita untuk menambahkan tag `<style>` di bagian `<head>` dokumen HTML kita. *Style CSS* ini adalah 
 metode yang efektif untuk menata satu halaman. Namun, menggunakan *style* ini untuk beberapa halaman memakan waktu karena kita perlu 
 menempatkan *CSS rules* di setiap halaman situs web kita.<br>
@@ -180,7 +180,7 @@ menempatkan *CSS rules* di setiap halaman situs web kita.<br>
 	</html>
 	```
 	
-- External CSS:<br>
+- __External CSS:__<br>
 Dengan external CSS, kita akan menautkan halaman web kita ke file `.css` eksternal, yang dapat dibuat oleh editor teks apa pun di perangkat kita 
 (mis., Notepad ). Jenis CSS ini adalah metode yang lebih efisien, terutama untuk menata situs web besar. Dengan mengedit satu file `.css`, kita 
 dapat mengubah seluruh situs sekaligus.<br><br>
@@ -201,7 +201,7 @@ Cara untuk mengaplikasikan *external CSS* ini adalah
 2. Di bagian `<head>` file HTML kita tambahkan referensi ke file `.css` eksternal kita tepat setelah tag `<title>`:<br>
 	`<link rel="stylesheet" type="text/css" href="style.css" />`
 	
-- Inline CSS:<br>
+- __Inline CSS:__<br>
 *Inline CSS* digunakan untuk menata elemen HTML tertentu. Untuk *sytle CSS* ini, kita hanya perlu menambahkan *style attribute* ke setiap tag HTML, tanpa menggunakan *selector*.
 Jenis CSS ini sangat tidak disarankan, karena setiap tag HTML perlu ditata secara individual. Mengelola situs web kita mungkin menjadi terlalu sulit jika kita hanya menggunakan *Inline CSS*.
 Namun, *Inline CSS* dalam HTML dapat berguna dalam beberapa situasi. Misalnya, dalam kasus di mana kita tidak memiliki akses ke file CSS atau perlu menerapkan gaya untuk satu elemen saja.<br>
@@ -221,13 +221,13 @@ Berikut merupakan contoh *inline CSS* ke tag `<p>` dan `<h1>`:<br>
 ### Jelaskan tag HTML5 yang kamu ketahui.
 
 Berikut merupakan tag dalam HTML5 yang sering dipakai
-1. CSS dan JS <br>
+1. __CSS dan JS__ <br>
 	Untuk melampirkan *file* css dan javascript sebagai *design* dan agar website terlihat menarik<br>
 	```html
 	<link rel="stylesheet" href="style.css" />
 	<script src="script.js"></script>
 	```
-2. *Semantics*<br>
+2. __*Semantics*__<br>
 	Di HTML5 kita memiliki struktur semantik seperti `<header>`, `<footer>`, dan `<nav>` untuk contoh kode seperti ini.<br>
 	```html
 	<header>
@@ -240,7 +240,7 @@ Berikut merupakan tag dalam HTML5 yang sering dipakai
 		...
 	</footer>
 	```
-3. *Article* dan *Section*<br>
+3. __*Article*__ dan *Section*<br>
 	```html
 	<section>
 	....
@@ -253,7 +253,7 @@ Berikut merupakan tag dalam HTML5 yang sering dipakai
 	</article>
 	```
 	*article tag* digunakan untuk mendefinisikan konten independen tertentu<br>
-4. *Input types, attributes and forms*<br>
+4. __*Input types, attributes and forms*__<br>
 	*input type* dan *attributes* baru telah diperkenalkan di HTML 5<br>
 	```html
 	<form>
@@ -270,14 +270,14 @@ Berikut merupakan tag dalam HTML5 yang sering dipakai
 	   <input type="submit" value="Submit" />
 	</form>
 	```
-5. HTML5 editable content <br>
+5. __*HTML5 editable content*__ <br>
 	HTML5 memiliki atribut baru, sekarang kita dapat mengedit konten dengan menambahkan atribut *contenteditable* ke dalamnya.<br>
 	```html
 	<div contenteditable="true">
 		content for editing
 	</div>
 	```
-6.  Local Storage<br>
+6.  __*Local Storage*__<br>
 	Dengan fungsi ini, pengguna dapat mengakses data secara lokal dalam browser web. Sebelum pengguna HTML5 menyimpan data di cookie dengan setiap permintaan server.<br>
 	```html
 	<script>
@@ -294,20 +294,20 @@ Berikut merupakan tag dalam HTML5 yang sering dipakai
 Selektor CSS memilih elemen HTML sesuai dengan *id, class, type, attribute etc*.
 
 Ada beberapa jenis *CSS selectors*. di antaranya adalah:<br>
-1. *CSS Element Selector*<br>
+1. __*CSS Element Selector*__<br>
 Selektor elemen memilih elemen HTML berdasarkan nama.<br>
-2. *CSS Id Selector*<br>
+2. __*CSS Id Selector*__<br>
 Selector id memilih atribut id dari elemen HTML untuk memilih elemen tertentu. Id selalu unik di dalam halaman sehingga dipilih untuk memilih satu elemen unik. Itu ditulis dengan karakter hash (#), diikuti oleh id elemen.
-3. *CSS Class Selector*<br>
+3. __*CSS Class Selector*__<br>
 Selektor kelas memilih elemen HTML dengan atribut kelas tertentu. Digunakan dengan karakter titik. (simbol titik penuh) diikuti dengan nama kelas.<br>
-4. *CSS Universal Selector*<br>
+4. __*CSS Universal Selector*__<br>
 Selektor universal digunakan sebagai karakter wildcard. Ini memilih semua elemen pada halaman.<br>
-5. *CSS Group Selector*<br>
+5. __*CSS Group Selector*__<br>
 *Grouping selector* digunakan untuk memilih semua elemen dengan definisi *style* yang sama. *Grouping selector* digunakan untuk meminimalkan kode. Koma digunakan untuk memisahkan setiap selektor dalam pengelompokan.<br>
 
 ### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 
-1. Kustomisasi templat HTML yang telah dibuat pada Tugas 4 dengan menggunakan CSS atau CSS framework (seperti Bootstrap, Tailwind, Bulma) dengan ketentuan sebagai berikut:<br>
+1. __Kustomisasi templat HTML yang telah dibuat pada Tugas 4 dengan menggunakan CSS atau CSS framework (seperti Bootstrap, Tailwind, Bulma) dengan ketentuan sebagai berikut:__<br>
 	Untuk semua template dari setiap halaman, saya memberikan tag <head> untuk mengambil css dari bootstrap, Misal dalam halaman login<br>
 	```html
 	<head>
@@ -339,7 +339,7 @@ Selektor universal digunakan sebagai karakter wildcard. Ini memilih semua elemen
 	</style>
 	```
 	
-2. Membuat keempat halaman yang dikustomisasi menjadi responsive.<br>
+2. __Membuat keempat halaman yang dikustomisasi menjadi responsive.__<br>
 	*Responsive web design* adalah sebuah metode atau pendekatan sistem web desain yang bertujuan memberikan pengalaman berselancar yang optimal dalam berbagai perangkat, baik mobile maupun komputer.<br>
 	Untuk mengaplikasikan hal tersebut saya menambahkan potongan kode berikut ini dalam tag `<head>`<br>
 	`<meta name="viewport" content="width=device-width, initial-scale=1">`
