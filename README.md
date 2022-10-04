@@ -323,7 +323,7 @@ Selektor universal digunakan sebagai karakter wildcard. Ini memilih semua elemen
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 		...
 	</body>
-	```<br>
+	```
 	Selanjutnya dalam setiap halaman saya juga membuat navbar dengan button tertentu. Dalam setiap bagian dari halaman tersebut saya juga menambahkan background image agar tampilan menjadi lebih menarik.<br>
 	Lalu, dalam setiap page juga saya membuat container dengan style`align-items: center;` agar setiap item ditampilkan di tengah. <br>
 	Dalam setiap page saya juga memberikan attribute margin atau padding untuk menyesuaikan item tersebut agar menarik dilihat user. <br>
