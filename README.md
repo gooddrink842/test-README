@@ -223,8 +223,8 @@ Berikut merupakan contoh *inline CSS* ke tag <p> dan <h1>:
 Berikut merupakan tag yang hanya bisa digunakan dalam HTML5. Selain daftar di bawah ini 
 masih banyak tag yang 
 
-| Tag | Description |
-|---------|---------------|
+| First Header  | Second Header |
+| ------------- | ------------- |
 | `<article>` | Defines an article. |
 | <aside> | Defines some content loosely related to the page content. |
 | <audio> | Embeds a sound, or an audio stream in an HTML document. |
