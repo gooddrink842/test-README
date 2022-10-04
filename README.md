@@ -201,7 +201,7 @@ Cara untuk mengaplikasikan *external CSS* ini adalah
 2. Di bagian `<head>` file HTML kita tambahkan referensi ke file `.css` eksternal kita tepat setelah tag `<title>`:<br>
 	`<link rel="stylesheet" type="text/css" href="style.css" />`
 	
-- Inline CSS
+- Inline CSS:
 *Inline CSS* digunakan untuk menata elemen HTML tertentu. Untuk *sytle CSS* ini, kita hanya perlu menambahkan *style attribute* ke setiap tag HTML, tanpa menggunakan *selector*.
 Jenis CSS ini sangat tidak disarankan, karena setiap tag HTML perlu ditata secara individual. Mengelola situs web kita mungkin menjadi terlalu sulit jika kita hanya menggunakan *Inline CSS*.
 Namun, *Inline CSS* dalam HTML dapat berguna dalam beberapa situasi. Misalnya, dalam kasus di mana kita tidak memiliki akses ke file CSS atau perlu menerapkan gaya untuk satu elemen saja.<br>
