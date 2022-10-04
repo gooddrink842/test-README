@@ -224,7 +224,7 @@ Berikut merupakan tag yang hanya bisa digunakan dalam HTML5. Selain daftar di ba
 masih banyak tag yang 
 
 | Tag | Description |
-|-----|-------|
+|---------|---------------|
 | <article> | Defines an article. |
 | <aside> | Defines some content loosely related to the page content. |
 | <audio> | Embeds a sound, or an audio stream in an HTML document. |
