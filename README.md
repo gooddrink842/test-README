@@ -220,10 +220,73 @@ Berikut merupakan contoh *inline CSS* ke tag <p> dan <h1>:
 
 ### Jelaskan tag HTML5 yang kamu ketahui.
 
-Berikut merupakan tag yang hanya bisa digunakan dalam HTML5. Selain daftar di bawah ini 
-masih banyak tag yang 
-
-
+Berikut merupakan tag dalam HTML5 yang sering dipakai
+1. CSS dan JS 
+	Untuk melampirkan *file* css dan javascript sebagai *design* dan agar website terlihat menarik
+	```
+	<link rel="stylesheet" href="style.css" />
+	<script src="script.js"></script>
+	```
+2. *Semantics*
+	Di HTML5 kita memiliki struktur semantik seperti <header>, <footer>, dan <nav> untuk contoh kode seperti ini.
+	```
+	<header>
+		...
+	</header>
+	<nav>
+		<ul>...</ul>
+	</nav>
+	<footer>
+		...
+	</footer>
+	```
+3. *Article* dan *Section*
+	```
+	<section>
+	....
+	</section>
+	```
+	*section tag* digunakan untuk mendefinisikan elemen html seperti header dan footer dan lainnya.
+	```
+	<article>
+	...
+	</article>
+	```
+	*article tag* digunakan untuk mendefinisikan konten independen tertentu
+4. *Input types, attributes and forms*
+	*input type* dan *attributes* baru telah diperkenalkan di HTML 5
+	```
+	<form>
+		<input name="name" required placeholder="Your name" pattern="[A-z]{7}" />
+	 
+		<input type="email" name="email" required placeholder="email@inwebson.com"/>
+	 
+		<input type="url" name="url" placeholder="Homepage URL"/>
+	 
+		<input type="number" name="age" min="18" max="99" />
+		
+	<textarea name="desc" placeholder="Describe yourself here..."></textarea>
+	  
+	   <input type="submit" value="Submit" />
+	</form>
+	```
+5. HTML5 editable content 
+	HTML5 memiliki atribut baru, sekarang kita dapat mengedit konten dengan menambahkan atribut *contenteditable* ke dalamnya.
+	```
+	<div contenteditable="true">
+		content for editing
+	</div>
+	```
+6.  Local Storage
+	Dengan fungsi ini, pengguna dapat mengakses data secara lokal dalam browser web. Sebelum pengguna HTML5 menyimpan data di cookie dengan setiap permintaan server.
+	```
+	<script>
+		localStorage.variableName = "value";
+		alert(localStorage.variableName);
+		localStorage.removeItem("variableName");
+		alert(localStorage.variableName);
+	</script>
+	```
 
 ### Jelaskan tipe-tipe CSS selector yang kamu ketahui.
 
