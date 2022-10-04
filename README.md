@@ -225,7 +225,7 @@ masih banyak tag yang
 
 | Tag | Description |
 |---------|---------------|
-| <article> | Defines an article. |
+| `<article>` | Defines an article. |
 | <aside> | Defines some content loosely related to the page content. |
 | <audio> | Embeds a sound, or an audio stream in an HTML document. |
 | <bdi> | Represents text that is isolated from its surrounding for the purposes of bidirectional text formatting. |
