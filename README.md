@@ -151,9 +151,9 @@ Selanjutnya, data-data tersebut yang terdapat pada database akan diambil agar da
 
 Perbedaan utama antara *inline CSS* dan *external CSS* adalah bahwa *inline CSS* diproses lebih cepat karena hanya memerlukan 
 browser untuk mengunduh 1 file sedangkan menggunakan *external CSS* akan memerlukan pengunduhan file HTML dan CSS secara terpisah.
-Untuk perbedaan lebih rinci saya paparkan dibawah ini
+Untuk perbedaan lebih rinci saya paparkan dibawah ini<br>
 
-- Internal CSS:
+- Internal CSS:<br>
 *Internal* atau *embedded CSS* mengharuskan kita untuk menambahkan tag `<style>` di bagian `<head>` dokumen HTML kita. *Style CSS* ini adalah 
 metode yang efektif untuk menata satu halaman. Namun, menggunakan *style* ini untuk beberapa halaman memakan waktu karena kita perlu 
 menempatkan *CSS rules* di setiap halaman situs web kita.<br>
@@ -180,7 +180,7 @@ menempatkan *CSS rules* di setiap halaman situs web kita.<br>
 	</html>
 	```
 	
-- External CSS:
+- External CSS:<br>
 Dengan external CSS, kita akan menautkan halaman web kita ke file `.css` eksternal, yang dapat dibuat oleh editor teks apa pun di perangkat kita 
 (mis., Notepad ). Jenis CSS ini adalah metode yang lebih efisien, terutama untuk menata situs web besar. Dengan mengedit satu file `.css`, kita 
 dapat mengubah seluruh situs sekaligus.<br>
@@ -201,11 +201,11 @@ Cara untuk mengaplikasikan *external CSS* ini adalah
 2. Di bagian `<head>` file HTML kita tambahkan referensi ke file `.css` eksternal kita tepat setelah tag `<title>`:<br>
 	`<link rel="stylesheet" type="text/css" href="style.css" />`
 	
-- Inline CSS:
+- Inline CSS:<br>
 *Inline CSS* digunakan untuk menata elemen HTML tertentu. Untuk *sytle CSS* ini, kita hanya perlu menambahkan *style attribute* ke setiap tag HTML, tanpa menggunakan *selector*.
 Jenis CSS ini sangat tidak disarankan, karena setiap tag HTML perlu ditata secara individual. Mengelola situs web kita mungkin menjadi terlalu sulit jika kita hanya menggunakan *Inline CSS*.
 Namun, *Inline CSS* dalam HTML dapat berguna dalam beberapa situasi. Misalnya, dalam kasus di mana kita tidak memiliki akses ke file CSS atau perlu menerapkan gaya untuk satu elemen saja.<br>
-Berikut merupakan contoh *inline CSS* ke tag `<p>` dan `<h1>`:
+Berikut merupakan contoh *inline CSS* ke tag `<p>` dan `<h1>`:<br>
 ```html
 <!DOCTYPE html>
 <html>
@@ -221,14 +221,14 @@ Berikut merupakan contoh *inline CSS* ke tag `<p>` dan `<h1>`:
 ### Jelaskan tag HTML5 yang kamu ketahui.
 
 Berikut merupakan tag dalam HTML5 yang sering dipakai
-1. CSS dan JS 
-	Untuk melampirkan *file* css dan javascript sebagai *design* dan agar website terlihat menarik
+1. CSS dan JS <br>
+	Untuk melampirkan *file* css dan javascript sebagai *design* dan agar website terlihat menarik<br>
 	```html
 	<link rel="stylesheet" href="style.css" />
 	<script src="script.js"></script>
 	```
-2. *Semantics*
-	Di HTML5 kita memiliki struktur semantik seperti `<header>`, `<footer>`, dan `<nav>` untuk contoh kode seperti ini.
+2. *Semantics*<br>
+	Di HTML5 kita memiliki struktur semantik seperti `<header>`, `<footer>`, dan `<nav>` untuk contoh kode seperti ini.<br>
 	```html
 	<header>
 		...
@@ -240,21 +240,21 @@ Berikut merupakan tag dalam HTML5 yang sering dipakai
 		...
 	</footer>
 	```
-3. *Article* dan *Section*
+3. *Article* dan *Section*<br>
 	```html
 	<section>
 	....
 	</section>
 	```
-	*section tag* digunakan untuk mendefinisikan elemen html seperti header dan footer dan lainnya.
+	*section tag* digunakan untuk mendefinisikan elemen html seperti header dan footer dan lainnya.<br>
 	```html
 	<article>
 	...
 	</article>
 	```
-	*article tag* digunakan untuk mendefinisikan konten independen tertentu
-4. *Input types, attributes and forms*
-	*input type* dan *attributes* baru telah diperkenalkan di HTML 5
+	*article tag* digunakan untuk mendefinisikan konten independen tertentu<br>
+4. *Input types, attributes and forms*<br>
+	*input type* dan *attributes* baru telah diperkenalkan di HTML 5<br>
 	```html
 	<form>
 		<input name="name" required placeholder="Your name" pattern="[A-z]{7}" />
@@ -270,15 +270,15 @@ Berikut merupakan tag dalam HTML5 yang sering dipakai
 	   <input type="submit" value="Submit" />
 	</form>
 	```
-5. HTML5 editable content 
-	HTML5 memiliki atribut baru, sekarang kita dapat mengedit konten dengan menambahkan atribut *contenteditable* ke dalamnya.
+5. HTML5 editable content <br>
+	HTML5 memiliki atribut baru, sekarang kita dapat mengedit konten dengan menambahkan atribut *contenteditable* ke dalamnya.<br>
 	```html
 	<div contenteditable="true">
 		content for editing
 	</div>
 	```
-6.  Local Storage
-	Dengan fungsi ini, pengguna dapat mengakses data secara lokal dalam browser web. Sebelum pengguna HTML5 menyimpan data di cookie dengan setiap permintaan server.
+6.  Local Storage<br>
+	Dengan fungsi ini, pengguna dapat mengakses data secara lokal dalam browser web. Sebelum pengguna HTML5 menyimpan data di cookie dengan setiap permintaan server.<br>
 	```html
 	<script>
 		localStorage.variableName = "value";
@@ -293,7 +293,7 @@ Berikut merupakan tag dalam HTML5 yang sering dipakai
 *CSS selectors* digunakan untuk memilih konten yang ingin diberikan *style*. Selector adalah bagian dari *CSS rule set*. 
 Selektor CSS memilih elemen HTML sesuai dengan *id, class, type, attribute etc*.
 
-Ada beberapa jenis *CSS selectors*. di antaranya adalah:
+Ada beberapa jenis *CSS selectors*. di antaranya adalah:<br>
 1. CSS Element Selector<br>
 Selektor elemen memilih elemen HTML berdasarkan nama.<br>
 2. CSS Id Selector<br>
