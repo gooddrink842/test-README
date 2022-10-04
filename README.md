@@ -157,7 +157,7 @@ Untuk perbedaan lebih rinci saya paparkan dibawah ini
 *Internal* atau *embedded CSS* mengharuskan kita untuk menambahkan tag `<style>` di bagian `<head>` dokumen HTML kita. *Style CSS* ini adalah 
 metode yang efektif untuk menata satu halaman. Namun, menggunakan *style* ini untuk beberapa halaman memakan waktu karena kita perlu 
 menempatkan *CSS rules* di setiap halaman situs web kita.<br>
-	```
+	```html
 	<!DOCTYPE html>
 	<html>
 		<head>
@@ -186,7 +186,7 @@ Dengan external CSS, kita akan menautkan halaman web kita ke file `.css` ekstern
 dapat mengubah seluruh situs sekaligus.<br>
 Cara untuk mengaplikasikan *external CSS* ini adalah
 1. Buat file `.css` baru dengan editor teks, dan tambahkan *style rules*. Sebagai contoh:<br>
-	```
+	```html
 	.xleftcol {
 	   float: left;
 	   width: 33%;
@@ -206,7 +206,7 @@ Cara untuk mengaplikasikan *external CSS* ini adalah
 Jenis CSS ini sangat tidak disarankan, karena setiap tag HTML perlu ditata secara individual. Mengelola situs web kita mungkin menjadi terlalu sulit jika kita hanya menggunakan CSS sebaris.
 Namun, CSS sebaris dalam HTML dapat berguna dalam beberapa situasi. Misalnya, dalam kasus di mana kita tidak memiliki akses ke file CSS atau perlu menerapkan gaya untuk satu elemen saja.<br>
 Berikut merupakan contoh *inline CSS* ke tag <p> dan <h1>:
-```
+```html
 <!DOCTYPE html>
 <html>
 	<body style="background-color:black;">
@@ -223,13 +223,13 @@ Berikut merupakan contoh *inline CSS* ke tag <p> dan <h1>:
 Berikut merupakan tag dalam HTML5 yang sering dipakai
 1. CSS dan JS 
 	Untuk melampirkan *file* css dan javascript sebagai *design* dan agar website terlihat menarik
-	```
+	```html
 	<link rel="stylesheet" href="style.css" />
 	<script src="script.js"></script>
 	```
 2. *Semantics*
 	Di HTML5 kita memiliki struktur semantik seperti <header>, <footer>, dan <nav> untuk contoh kode seperti ini.
-	```
+	```html
 	<header>
 		...
 	</header>
@@ -241,13 +241,13 @@ Berikut merupakan tag dalam HTML5 yang sering dipakai
 	</footer>
 	```
 3. *Article* dan *Section*
-	```
+	```html
 	<section>
 	....
 	</section>
 	```
 	*section tag* digunakan untuk mendefinisikan elemen html seperti header dan footer dan lainnya.
-	```
+	```html
 	<article>
 	...
 	</article>
@@ -255,7 +255,7 @@ Berikut merupakan tag dalam HTML5 yang sering dipakai
 	*article tag* digunakan untuk mendefinisikan konten independen tertentu
 4. *Input types, attributes and forms*
 	*input type* dan *attributes* baru telah diperkenalkan di HTML 5
-	```
+	```html
 	<form>
 		<input name="name" required placeholder="Your name" pattern="[A-z]{7}" />
 	 
@@ -272,14 +272,14 @@ Berikut merupakan tag dalam HTML5 yang sering dipakai
 	```
 5. HTML5 editable content 
 	HTML5 memiliki atribut baru, sekarang kita dapat mengedit konten dengan menambahkan atribut *contenteditable* ke dalamnya.
-	```
+	```html
 	<div contenteditable="true">
 		content for editing
 	</div>
 	```
 6.  Local Storage
 	Dengan fungsi ini, pengguna dapat mengakses data secara lokal dalam browser web. Sebelum pengguna HTML5 menyimpan data di cookie dengan setiap permintaan server.
-	```
+	```html
 	<script>
 		localStorage.variableName = "value";
 		alert(localStorage.variableName);
@@ -309,7 +309,7 @@ Selektor universal digunakan sebagai karakter wildcard. Ini memilih semua elemen
 
 1. Kustomisasi templat HTML yang telah dibuat pada Tugas 4 dengan menggunakan CSS atau CSS framework (seperti Bootstrap, Tailwind, Bulma) dengan ketentuan sebagai berikut:<br>
 	Untuk semua template dari setiap halaman, saya memberikan tag <head> untuk mengambil css dari bootstrap, Misal dalam halaman login<br>
-	```
+	```html
 	<head>
 		<meta charset="utf-8"> 													// untuk menerjemahkan karakter di dalam HTML sebagai UTF-8
 		<meta name="viewport" content="width=device-width, initial-scale=1">	// agar page tersebut responsive dan dapat di lihat di semua device
@@ -318,7 +318,7 @@ Selektor universal digunakan sebagai karakter wildcard. Ini memilih semua elemen
 	</head>
 	```<br>
 	Setelah itu, saya juga mengambil file JS untuk membuat konten web yang dinamis dan interaktif seperti aplikasi dan browser. Dengan cara<br>
-	```
+	```html
 	<body>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 		...
