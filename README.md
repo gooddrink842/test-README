@@ -183,7 +183,7 @@ menempatkan *CSS rules* di setiap halaman situs web kita.<br>
 - External CSS:<br>
 Dengan external CSS, kita akan menautkan halaman web kita ke file `.css` eksternal, yang dapat dibuat oleh editor teks apa pun di perangkat kita 
 (mis., Notepad ). Jenis CSS ini adalah metode yang lebih efisien, terutama untuk menata situs web besar. Dengan mengedit satu file `.css`, kita 
-dapat mengubah seluruh situs sekaligus.<br>
+dapat mengubah seluruh situs sekaligus.<br><br>
 Cara untuk mengaplikasikan *external CSS* ini adalah
 1. Buat file `.css` baru dengan editor teks, dan tambahkan *style rules*. Sebagai contoh:<br>
 	```html
