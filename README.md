@@ -340,8 +340,7 @@ Selektor universal digunakan sebagai karakter wildcard. Ini memilih semua elemen
 	```
 	
 2. Membuat keempat halaman yang dikustomisasi menjadi responsive.<br>
-	*Responsive web design* adalah sebuah metode atau pendekatan sistem web desain yang bertujuan memberikan pengalaman berselancar yang optimal dalam berbagai perangkat, 
-	baik mobile maupun komputer meja.<br>
+	*Responsive web design* adalah sebuah metode atau pendekatan sistem web desain yang bertujuan memberikan pengalaman berselancar yang optimal dalam berbagai perangkat, baik mobile maupun komputer.<br>
 	Untuk mengaplikasikan hal tersebut saya menambahkan potongan kode berikut ini dalam tag `<head>`<br>
 	`<meta name="viewport" content="width=device-width, initial-scale=1">`
 
