@@ -203,8 +203,8 @@ Cara untuk mengaplikasikan *external CSS* ini adalah
 	
 - Inline CSS
 *Inline CSS* digunakan untuk menata elemen HTML tertentu. Untuk *sytle CSS* ini, kita hanya perlu menambahkan *style attribute* ke setiap tag HTML, tanpa menggunakan *selector*.
-Jenis CSS ini sangat tidak disarankan, karena setiap tag HTML perlu ditata secara individual. Mengelola situs web kita mungkin menjadi terlalu sulit jika kita hanya menggunakan CSS sebaris.
-Namun, CSS sebaris dalam HTML dapat berguna dalam beberapa situasi. Misalnya, dalam kasus di mana kita tidak memiliki akses ke file CSS atau perlu menerapkan gaya untuk satu elemen saja.<br>
+Jenis CSS ini sangat tidak disarankan, karena setiap tag HTML perlu ditata secara individual. Mengelola situs web kita mungkin menjadi terlalu sulit jika kita hanya menggunakan *Inline CSS*.
+Namun, *Inline CSS* dalam HTML dapat berguna dalam beberapa situasi. Misalnya, dalam kasus di mana kita tidak memiliki akses ke file CSS atau perlu menerapkan gaya untuk satu elemen saja.<br>
 Berikut merupakan contoh *inline CSS* ke tag `<p>` dan `<h1>`:
 ```html
 <!DOCTYPE html>
