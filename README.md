@@ -228,7 +228,7 @@ Berikut merupakan tag dalam HTML5 yang sering dipakai
 	<script src="script.js"></script>
 	```
 2. *Semantics*
-	Di HTML5 kita memiliki struktur semantik seperti <header>, <footer>, dan <nav> untuk contoh kode seperti ini.
+	Di HTML5 kita memiliki struktur semantik seperti `<header>`, `<footer>`, dan `<nav>` untuk contoh kode seperti ini.
 	```html
 	<header>
 		...
