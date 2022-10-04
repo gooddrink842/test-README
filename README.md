@@ -240,7 +240,7 @@ Berikut merupakan tag dalam HTML5 yang sering dipakai
 		...
 	</footer>
 	```
-3. __*Article*__ dan *Section*<br>
+3. __*Article* dan *Section*__<br>
 	```html
 	<section>
 	....
