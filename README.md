@@ -40,7 +40,7 @@ web JavaScript) yang berpusat pada melakukan tindakan tertentu dalam menanggapi 
 
 #### AJAX GET
 
-__1. Buatlah view baru yang mengembalikan seluruh data task dalam bentuk JSON.__<br>
+1. __Buatlah view baru yang mengembalikan seluruh data task dalam bentuk JSON.__<br>
 	Dapat dilakukan dengan menambahkan fungsi berikut di `views.py`:<br>
 	```python
 	@login_required(login_url='/todolist/login/')
@@ -48,7 +48,7 @@ __1. Buatlah view baru yang mengembalikan seluruh data task dalam bentuk JSON.__
 		data = Task.objects.filter(user=request.user).order_by('id')
 		return HttpResponse(serializers.serialize("json", data), content_type="application/json")
 	```
-__2. Buatlah path `/todolist/json` yang mengarah ke view yang baru kamu buat.__<br>
+2. __Buatlah path `/todolist/json` yang mengarah ke view yang baru kamu buat.__<br>
 	Dapat dilakukan dengan menambahkan berikut di `urlpatterns` yang mengarah ke fungsi `show_todolist_json`:<br>
 	```python
 	urlpatterns = [
@@ -56,13 +56,13 @@ __2. Buatlah path `/todolist/json` yang mengarah ke view yang baru kamu buat.__<
 		path('json/', show_todolist_json, name='show_todolist_json'),
 	]
 	```
-__3. Lakukan pengambilan task menggunakan AJAX GET.__<br>
+3. __Lakukan pengambilan task menggunakan AJAX GET.__<br>
 	Pada step ini, saya menggunakan AJAX getJSON untuk mengambil data json dari database. Lalu saya menggunakan `$.each(json, function (index, val) {...}`
 	untuk menampilkan setiap card yang ada dengan implementasi lebih lanjut dalam `todolist.html` bagian `displayCards` dalam `<script>`
 	
 #### AJAX POST
 
-__1. Buatlah sebuah tombol `Add Task` yang membuka sebuah modal dengan form untuk menambahkan task.__<br>
+1. __Buatlah sebuah tombol `Add Task` yang membuka sebuah modal dengan form untuk menambahkan task.__<br>
 	Berikut adalah implementasi step ini dengan navbar, potongan code ini saya tambahkan ke dalam body html<br>
 	```html
 	<nav class="navbar px-3 mb-3" style="background-image: url('https://img.freepik.com/free-vector/white-gray-geometric-pattern-background-vector_53876-136510.jpg?w=1380&t=st=1664620923~exp=1664621523~hmac=9a3ab8d25bc3d7a311af1708b5c510a1bbd937612ff69604ac8752e84fb18f57');">
@@ -81,7 +81,7 @@ __1. Buatlah sebuah tombol `Add Task` yang membuka sebuah modal dengan form untu
 		</div>
 	</nav>
 	```
-__2. Buatlah view baru untuk menambahkan task baru ke dalam database.__<br>
+2. __Buatlah view baru untuk menambahkan task baru ke dalam database.__<br>
 	Pada step ini, saya menambahkan potongan code berikut ke dalam `views.py`<br>
 	```python
 	@login_required(login_url='/todolist/login/')
@@ -95,7 +95,7 @@ __2. Buatlah view baru untuk menambahkan task baru ke dalam database.__<br>
 		
 		return redirect('todolist:show_todolist')
 	```
-__3. Buatlah path `/todolist/add` yang mengarah ke view yang baru kamu buat.__<br>
+3. __Buatlah path `/todolist/add` yang mengarah ke view yang baru kamu buat.__<br>
 	Dapat dilakukan dengan menambahkan berikut di `urlpatterns` yang mengarah ke fungsi `create_task_ajax`:<br>
 	```python
 	urlpatterns = [
@@ -103,7 +103,7 @@ __3. Buatlah path `/todolist/add` yang mengarah ke view yang baru kamu buat.__<b
 		path('add/', create_task_ajax, name='create_task_ajax'),
 	]
 	```
-__4. Hubungkan form yang telah kamu buat di dalam modal kamu ke path `/todolist/add`__<br>
+4. __Hubungkan form yang telah kamu buat di dalam modal kamu ke path `/todolist/add`__<br>
 	```html
 	<div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
@@ -131,9 +131,9 @@ __4. Hubungkan form yang telah kamu buat di dalam modal kamu ke path `/todolist/
 		</div>
 	</div>
 	```
-__5. Tutup modal setelah penambahan task telah berhasil dilakukan.__<br>
+5. __Tutup modal setelah penambahan task telah berhasil dilakukan.__<br>
 	Implementasi hal ini ada di script, `$("#formModal").modal('hide');`<br>
-__6. Lakukan refresh pada halaman utama secara asinkronus untuk menampilkan list terbaru tanpa reload seluruh page.__<br>
+6. __Lakukan refresh pada halaman utama secara asinkronus untuk menampilkan list terbaru tanpa reload seluruh page.__<br>
 	Setelah melakukan penambahan, modal akan di hide lalu *page* ter-*update* secara otomatis tanpa reload.<br>
 	
 ## Credits
