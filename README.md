@@ -57,7 +57,7 @@ web JavaScript) yang berpusat pada melakukan tindakan tertentu dalam menanggapi 
 	]
 	```
 3. Lakukan pengambilan task menggunakan AJAX GET.<br>
-	Pada step ini, saya menggunakan AJAX getJSON untuk mengambil data json dari database. Lalu saya menggunakan `$.each(json, function (index, val) {...}`<br>
+	Pada step ini, saya menggunakan AJAX getJSON untuk mengambil data json dari database. Lalu saya menggunakan `$.each(json, function (index, val) {...}`
 	untuk menampilkan setiap card yang ada dengan implementasi lebih lanjut dalam `todolist.html` bagian `displayCards` dalam `<script>`
 	
 #### AJAX POST
