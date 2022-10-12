@@ -134,7 +134,18 @@ web JavaScript) yang berpusat pada melakukan tindakan tertentu dalam menanggapi 
 5. __Tutup modal setelah penambahan task telah berhasil dilakukan.__<br>
 	Implementasi hal ini ada di script, `$("#formModal").modal('hide');`<br>
 6. __Lakukan refresh pada halaman utama secara asinkronus untuk menampilkan list terbaru tanpa reload seluruh page.__<br>
-	Setelah melakukan penambahan, modal akan di hide lalu *page* ter-*update* secara otomatis tanpa reload.<br>
+	Dapat dilakukan dengan 
+	```
+	$(document).ready(function)
+	
+	The ready() method can only be used on the current document, so no selector is required:
+	$(function)
+
+	Parameter	Description
+	function	Required. Specifies the function to run after the document is loaded
+	```
+	yang berada di dalam tag `script`, dimana `function` tersebut adalah *function* yang akan di *run* ketika *document loaded*.
+	Didalamnya saya berikan pemanggilan fungsi `displayCards` untuk menampilkan *card* ketika `getJSON` sukses diambil.
 	
 ## Credits
 
