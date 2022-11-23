@@ -33,17 +33,17 @@ berisi data yang dipetakan yang kita dapatkan dari fungsi fetchMyWatchlist.
 ### Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 
 1. Menambahkan tombol navigasi pada drawer/hamburger untuk ke halaman mywatchlist.<br>
-Dilakukan dengan menambahkan tombol navigasi pada `drawer.dart` dengan widget `ListTile` yang akan mengarahkan ke `MyWatchListPage`<br>
+- Dilakukan dengan menambahkan tombol navigasi pada `drawer.dart` dengan widget `ListTile` yang akan mengarahkan ke `MyWatchListPage`<br>
 2. Membuat satu file dart yang berisi model mywatchlist.<br>
-Pada step ini, saya menggunakan bantuan dari website QuickType yang akan membuat model berdasarkan data JSON.<br>
+- Pada step ini, saya menggunakan bantuan dari website QuickType yang akan membuat model berdasarkan data JSON.<br>
 3. Menambahkan halaman mywatchlist yang berisi semua watch list yang ada pada endpoint JSON di Django yang telah kamu deploy ke Heroku sebelumnya (Tugas 3). Pada bagian ini, kamu cukup menampilkan judul dari setiap mywatchlist yang ada.<br>
-	Dilakukan dengan membuat file `mywatchlist_page.dart` untuk menampilkan watchlist. berdasarkan data yang telah di ambil oleh file `fetch_mywatchlist.dart`  <br>
+- Dilakukan dengan membuat file `mywatchlist_page.dart` untuk menampilkan watchlist. berdasarkan data yang telah di ambil oleh file `fetch_mywatchlist.dart`  <br>
 	- Membuat navigasi dari setiap judul watch list ke halaman detail<br>
 	Pada step ini, saya menggunakan widget GestureDetector dan menggunakan properti `onTap` untuk kehalaman detail<br>
 4. Menambahkan halaman detail untuk setiap mywatchlist yang ada pada daftar tersebut. Halaman ini menampilkan judul, release date, rating, review, dan status (sudah ditonton/belum).<br>
-Dilakukan dengan membuat file `mywatchlist_detail.dart` yang berfungsi untuk menampilkan halaman detail setiap watchlist.<br>
+- Dilakukan dengan membuat file `mywatchlist_detail.dart` yang berfungsi untuk menampilkan halaman detail setiap watchlist.<br>
 5. Menambahkan tombol untuk kembali ke daftar mywatchlist<br>
-Dilakukan dengan menambahkan `TextButton` di halaman detail yang akan mengarahkan kembali ke halaman `mywatchlist_page.`<br>
+- Dilakukan dengan menambahkan `TextButton` di halaman detail yang akan mengarahkan kembali ke halaman `mywatchlist_page.`<br>
 
 ## Tugas 8 - Flutter Form
 
