@@ -18,11 +18,11 @@ sebelum mengambil data JSON.
 Pada tugas ini, saya menggunakan widget yang hampir sama pada tugas-tugas sebelumnya. Namun, terdapat beberapa tambahan widget yang
 saya gunakan 
 
-1. CheckboxListTile() : Creates a combination of a list tile and a checkbox.
-2. ListTile() : Used to populate a ListView in Flutter. A widget that represents a single row of fixed height.
-3. RichText() : Widget that can display text using several different styles.
-4. GestureDetector() : A widget that can detect user gestures.
-5. FutureBuilder() : Creates a widget that builds itself based on the latest snapshot of interaction with a `Future`.
+1. CheckboxListTile() : *Creates a combination of a list tile and a checkbox.*
+2. ListTile() : *Used to populate a ListView in Flutter. A widget that represents a single row of fixed height.*
+3. RichText() : *Widget that can display text using several different styles.*
+4. GestureDetector() : *A widget that can detect user gestures.*
+5. FutureBuilder() : *Creates a widget that builds itself based on the latest snapshot of interaction with a `Future`.*
 
 ### Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
 
